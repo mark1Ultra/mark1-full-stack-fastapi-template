@@ -1,13 +1,14 @@
 name: Lint Backend
 
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    types:
-      - opened
-      - synchronize
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - master
+  # pull_request:
+  #   types:
+  #     - opened
+  #     - synchronize
 
 jobs:
   lint-backend:

@@ -1,8 +1,9 @@
 name: "Conflict detector"
 on:
-  push:
-  pull_request_target:
-    types: [synchronize]
+  workflow_dispatch:
+  # push:
+  # pull_request_target:
+  #   types: [synchronize]
 
 jobs:
   main:

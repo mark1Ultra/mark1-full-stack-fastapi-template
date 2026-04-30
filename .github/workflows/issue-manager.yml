@@ -1,18 +1,18 @@
 name: Issue Manager
 
 on:
-  schedule:
-    - cron: "21 17 * * *"
-  issue_comment:
-    types:
-      - created
-  issues:
-    types:
-      - labeled
-  pull_request_target:
-    types:
-      - labeled
   workflow_dispatch:
+  # schedule:
+  #   - cron: "21 17 * * *"
+  # issue_comment:
+  #   types:
+  #     - created
+  # issues:
+  #   types:
+  #     - labeled
+  # pull_request_target:
+  #   types:
+  #     - labeled
 
 permissions:
   issues: write

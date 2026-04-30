@@ -1,10 +1,11 @@
 name: Generate Client
 
 on:
-  pull_request:
-    types:
-    - opened
-    - synchronize
+  workflow_dispatch:
+  # pull_request:
+  #   types:
+  #   - opened
+  #   - synchronize
 
 jobs:
   generate-client:
